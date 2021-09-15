@@ -1,0 +1,3 @@
+N of Train,3946,covid:191,pneumonia_virus:941,pneumonia_bacteria:1797,normal:1017
+N of Valid,986,covid:44,pneumonia_virus:249,pneumonia_bacteria:445,normal:248
+N of Test,1234,covid:48,pneumonia_virus:311,pneumonia_bacteria:547,normal:328

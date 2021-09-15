@@ -1,0 +1,28 @@
+Project Name          : CS598-RED-FLANNEL
+Project ID            : decisive-fold-309904
+Project Number        : 905883621610
+Instance              : cs598-rf-d01-vm
+Instance zone         : us-central1-a
+Instance machine type : n1-highmem-4
+External Static IP    : 130.211.208.9
+
+
+Install Google Cloud SDK
+  -   https://cloud.google.com/sdk/docs/install?hl=en_US
+
+
+
+SDK Commands of Interest
+------------------------
+
+Copy Files to your VM from your local machine
+
+gcloud compute scp --project decisive-fold-309904 --zone us-central1-a --recurse <local file or directory> cs598-rf-d01-vm:~/
+
+Access Jupyter Notebook
+
+gcloud compute instances describe --project decisive-fold-309904 --zone us-central1-a cs598-rf-d01-vm | grep googleusercontent.com | grep datalab
+
+Check Assigned IP addresses
+
+gcloud compute addresses list

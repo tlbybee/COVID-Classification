@@ -1,0 +1,4 @@
+{
+    "python.pythonPath": "red-env\\Scripts\\python.exe",
+    "jupyter.jupyterServerType": "local"
+}
