@@ -4,6 +4,10 @@ UIUC - CS 598 - Deep Learning for Healthcare final project
 
 See "COVID X-Ray Image Classification using Deep Learning.pdf" for more details.
 
+Charles Beyer, Tyler Bybee, Emil Varghese, and Robert Wilcox, Sr.
+
+
+
 # ABSTRACT 
 
 Background and Objective: Novel Coronavirus also known as COVID-19 originated in Wuhan, China around December 2019 and has now spread across the world. The study tries to classify COVID-19 chest X-Ray images against pneumonia and healthy patients using convolutional neural networks (CNNs).
